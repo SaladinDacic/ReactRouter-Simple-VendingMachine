@@ -1,0 +1,39 @@
+.vm-body{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://64.media.tumblr.com/30221eba32ea1b60e947c547b42ea513/tumblr_nvzkh3Dgkh1uexxavo1_640.png");
+    background-size:cover;
+    height: 94vh;
+    width: 90vw;
+}
+
+.vm-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    width: 30%;
+    height: 22%;
+    color: white;
+}
+
+.vm-div h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.vml{
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.vml:hover{
+    text-decoration-line: underline;
+}

@@ -1,0 +1,26 @@
+.Sardines-body{
+    background-image: url("https://media1.giphy.com/media/l41m3g3u9aqiStOuY/giphy.gif");
+    background-size: cover;
+    height: 93vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sardines-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    width: 30%;
+    height: 22%;
+    color: white;
+    z-index: 2;
+}
+.Sardines-box .link{
+    color: white;
+
+}

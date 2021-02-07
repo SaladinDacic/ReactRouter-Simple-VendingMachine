@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: tomato;
+
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 65, 77);
+}
+navbar{
+  display: flex;
+  width: 70%;
+  height: 3em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.VM{
+  font-size: 1.3em;
+}
+
+.nav-text{
+  color: rgb(122, 199, 186);
+  text-decoration: none;
+  /* text-decoration-line: none; */
+}
+
+.active-nav{
+  color: white;
+}

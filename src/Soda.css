@@ -1,0 +1,35 @@
+
+.soda-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.soda-body img{
+    width: 30%;
+    animation: rotateIt 2s infinite linear;
+}
+
+.soda-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    width: 25%;
+    height: 22%;
+    color: white;
+}
+
+@keyframes rotateIt{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

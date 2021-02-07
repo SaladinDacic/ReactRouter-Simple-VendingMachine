@@ -1,0 +1,37 @@
+.Chips-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Chips-box{
+    margin: 15em auto;
+    position:static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    width: 30%;
+    height: 22%;
+    color: white;
+    z-index: 2;
+}
+.Chips-box button{
+    z-index: 2;
+}
+.Chips-box h2{
+    z-index: 2;
+}
+
+.Chips-c img{
+    margin-top: -12em;
+    position: absolute;
+    z-index: 1;
+    /* margin-left: 37em; */
+}
+.Chips-c{
+    transform: scale(0.7);
+}
